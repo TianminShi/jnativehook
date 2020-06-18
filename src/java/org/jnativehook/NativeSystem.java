@@ -155,7 +155,8 @@ public class NativeSystem {
 
 		if (osArch.equalsIgnoreCase("arm")) {
 			arch = Arch.ARM;
-		}if (osArch.equalsIgnoreCase("aarch64")) {
+		}
+		else if (osArch.equalsIgnoreCase("aarch64")) {
 			arch = Arch.AARCH64;
 		}
 		else if (osArch.equalsIgnoreCase("sparc")) {
